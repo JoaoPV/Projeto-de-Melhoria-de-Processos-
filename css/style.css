@@ -279,6 +279,10 @@ span.menu{
 	font-size:4em;
 	margin:0;
 }
+.gallery-text h2 {
+    color:#FFF;
+    font-family: 'Philosopher', sans-serif;
+}
 .gallery-text p{
     color:#FFF;
     font-family: 'Philosopher', sans-serif;
@@ -1325,4 +1329,22 @@ ul.social-slide li i.mac{
 .btn-processo {
     padding: 0 5%;
     box-sizing: border-box;
+}
+
+.entrega {
+    padding-bottom: 30px;
+}
+
+.table-analise-qualitativa{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-analise-qualitativa th, .table-analise-qualitativa td{
+    border: black solid 1px;
+    padding-left: 10px;
+}
+
+.table-analise-qualitativa th{
+    background: #cccccc;
 }

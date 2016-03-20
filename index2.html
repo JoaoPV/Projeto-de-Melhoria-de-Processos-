@@ -1,0 +1,798 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Auberge a Hotel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Auberge Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- bootstrap -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' media="all"/>
+    <!-- //bootstrap -->
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all"/>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--start-smoth-scrolling-->
+    <!--webfonts-->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic' rel='stylesheet'
+          type='text/css'>
+    <!--webfonts-->
+    <link href="css/component.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+</head>
+<body class="cbp-spmenu-push">
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-30027142-1', 'w3layouts.com');
+    ga('send', 'pageview');
+</script>
+
+<div id="home" class="header-section">
+    <div class="container">
+        <div class="header-top">
+            <div class="top-nav">
+                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home" class="scroll">Home</a></li>
+                        <li><a href="#empresa" class="scroll">Empresa</a></li>
+                        <li><a href="#fase-1" class="scroll">Fase 1</a></li>
+                        <li><a href="#fase-2" class="scroll">Fase 2</a></li>
+                        <li><a href="#fase-3" class="scroll">Fase 3</a></li>
+                        <li><a href="#fase-4" class="scroll">Fase 4</a></li>
+                        <li><a href="#equipe" class="scroll">Equipe</a></li>
+                    </ul>
+                </nav>
+                <div class="main buttonset">
+                    <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                    <button id="showRightPush"><img src="images/menu.png" alt=""/></button>
+                    <!--<span class="menu"></span>-->
+                </div>
+                <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+                <script src="js/classie.js"></script>
+                <script>
+                    var menuRight = document.getElementById('cbp-spmenu-s2'),
+                            showRightPush = document.getElementById('showRightPush'),
+                            body = document.body;
+
+                    showRightPush.onclick = function () {
+                        classie.toggle(this, 'active');
+                        classie.toggle(body, 'cbp-spmenu-push-toleft');
+                        classie.toggle(menuRight, 'cbp-spmenu-open');
+                        disableOther('showRightPush');
+                    };
+
+                    function disableOther(button) {
+                        if (button !== 'showRightPush') {
+                            classie.toggle(showRightPush, 'disabled');
+                        }
+                    }
+                </script>
+            </div>
+            <div class="header-logo">
+                <h1><a href="index.html"></a></h1>
+            </div>
+            <div class="header-title">
+                <h1>Projeto de Melhoria de Processos</h1>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="banner-grids">
+            <div class="header-logo-github">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h2 class="col-sm-8 header-info">Diagramas BPMN, pautas e atas de reuniões, planos de ação (por
+                            exemplo, PDCA), manuais
+                            e procedimentos
+                            documentados relacionados aos processos de negócios sendo modelados. </h2>
+                        <div class="button-header col-sm-4"><a
+                                href="https://github.com/JoaoPV/Projeto-de-Melhoria-de-Processos-">
+                            <small>View project on</small>
+                            GitHub</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- welcome -->
+<div class="welcome">
+    <!-- container -->
+    <div class="container">
+        <div class="col-md-12">
+            <p>O trabalho consiste em realizar as quatro primeiras etapas do Ciclo de Vida BPM: Identificação de
+                Processos, Descoberta de Processos, Análise de Processos e Redesign de Processos, conforme estudamos nas
+                aulas teóricas da disciplina. </p>
+
+            <p>O trabalho foi dividido em 4 fases</p>
+
+            <ul class="fases" style="margin-left: 20px; list-style-type:none;">
+                <li> Fase 1: Identificação de Processos
+                    <ol type="1">
+                        <li>Arquitetura de Processos da organização</li>
+                        <li>Avaliação dos Processos de Negócios</li>
+                        <li>Escopo do Ciclo de Melhorias</li>
+                    </ol>
+                </li>
+                <li> Fase 2: Descoberta de Processos
+                    <ol type="1">
+                        <li> A Definição da Configuração da Descoberta</li>
+                        <li>As evidências de Coletas de Informações</li>
+                        <li>O AS-IS</li>
+                        <li>As evidências de Garantia da Qualidade dos Modelos</li>
+                    </ol>
+                </li>
+                <li> Fase 3: Análise de Processos
+                    <ol type="1">
+                        <li>Análise Qualitativa de Processos</li>
+                    </ol>
+                </li>
+                <li> Fase 4: Redesign de Processos
+                    <ol type="1">
+                        <li>TO-BE</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //welcome -->
+<!-- gallery -->
+<div id="empresa" class="gallery">
+    <!-- container -->
+    <div class="container">
+        <div class="gallery-info">
+            <h3>Empresa</h3>
+        </div>
+        <div class="col-sm-4">
+            <a href="http://www.azi.com.br/"><img src="images/az-informatica.png" style="width: 100%"></a>
+        </div>
+
+        <div class="col-sm-8 gallery-text">
+            <p>A empresa AZ Tecnologia em Gestão desenvolve soluções de Gestão Administrativa para o Setor Público e
+                busca sempre a inovação em soluções que tragam qualidade, aumento de eficiência, automação de
+                atividades, organização e distribuição de informações para a tomada de decisões.
+            </p>
+
+            <p>Como a empresa é reconhecida no mercado, seus produtos e serviços prestados garantem a máxima qualidade
+                em desenvolvimento de software no Brasil. Deste modo, a empresa prioriza a satisfação de seus clientes.
+                com a qualidade de seus resultados de trabalho.
+            </p>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //gallery -->
+<!-- testimonials -->
+<div id="fase-1" class="testimonials">
+    <!-- container -->
+    <div class="container">
+        <div class="testimonials-info">
+            <h3>Fase 1</h3>
+        </div>
+        <div class="col-sm-12">
+            <div class="entrega">
+                <h2>Arquitetura de Processos da organização</h2>
+                <div class="col-sm-6">
+                    Para esta entrega fizemos primerio uma matriz de caso/função
+                    <img style="width:80%; height:20em; cursor:pointer;" data-toggle="modal" data-target="#matriz"
+                         src="images/entregas/matrizCasoFuncao.png">
+
+                    <div class="modal fade" id="matriz" tabindex="-1" role="dialog"
+                         aria-labelledby="Matriz de Caso/Função">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <img style="width:100%" src="images/entregas/matrizCasoFuncao.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    Apos a criação da matriz organizamos a arquiteruta da organização
+                    <img style="width:80%; height:20em; cursor:pointer;" class="center-block" data-toggle="modal"
+                         data-target="#arquitetura" src="images/entregas/arquiteturaDeProcesso.png">
+
+                    <div class="modal fade" id="arquitetura" tabindex="-1" role="dialog"
+                         aria-labelledby="Arquitetura de Processos">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <img style="width:100%" src="images/entregas/arquiteturaDeProcesso.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="entrega">
+                <h2>Avaliação dos Processos de Negócios</h2>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <ul style="margin-left: 30px;">
+                            <li>A ­ Processo de Desenvolvimento da estratégia de negócios</li>
+                            <li>B ­ Processo de Gerenciamento do portfólio de produtos</li>
+                            <li>C ­ Processo de Gerenciamento do portfólio de projetos</li>
+                            <li>D ­ Processo de Análise de requisitos</li>
+                            <li>E ­ Processo de Planejamento do projeto</li>
+                            <li>F ­ Processo de Desenvolvimento de produtos</li>
+                            <li>G ­ Processo de Entrega e Implantação dos produtos ao cliente</li>
+                            <li>H ­ Processo de Gestão de atendimento ao cliente </li>
+                            <li>I ­ Processo de Suporte a execução dos produtos junto ao cliente</li>
+                            <li>J ­ Processo de Correção de bugs de produtos prontos</li>
+                            <li>K ­ Processo de Desenvolvimento e gestão dos recursos humanos</li>
+                            <li>L ­ Processo de Limpeza e manutenção predial</li>
+                            <li>M ­ Processo de Manutenção dos equipamentos</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img style="width:100%; height:20em; cursor:pointer;" class="center-block" data-toggle="modal"
+                             data-target="#avaliacaoDeProcesso" src="images/entregas/avaliacaoDeProcesso.png">
+
+                        <div class="modal fade" id="avaliacaoDeProcesso" tabindex="-1" role="dialog"
+                             aria-labelledby="Avaliação de Processos">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <img style="width:100%" src="images/entregas/avaliacaoDeProcesso.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <p>Avaliação dos Processos de Negócio conforme os critérios de:  </p>
+
+                        <ul style="margin-left: 30px;">
+                            <li>Importância – processos têmos maiores impactos nos objetivos estratégicos da
+                                organização: A, B, C, D, E, F, G e I.
+                            </li>
+                            <li>Disfunção – processos que estão com problemas mais profundos: E, K, L e M.</li>
+                            <li>Viabilidade – processos mais suscetíveis para um gerenciamento de processos
+                                bem­sucedido: D, E, F, G, H e J.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="entrega">
+
+                <h2>Escopo do Ciclo de Melhorias</h2>
+                <p>
+                    Após a descoberta de processos no desenvolvimento da arquitetura de processos da organização, foi
+                    realizada a avaliação dos processos de negócios, priorizando os processos por sua importância,
+                    disfunção e viabilidade.
+                </p>
+                <p>
+                    Feita esta análise, fizemos uma matriz similar a de Eisenhower, para facilitar a visualização e
+                    validação com a representante da AZ.
+                </p>
+                <p>
+                    Esta matriz foi mostrada e validada. Como resultado, definimos que os processos a serem descobertos
+                    de forma detalhada, e que farão parte do escopo do projeto de Ciclo de Melhorias BPMN, serão:
+                </p>
+
+                <ul style="margin-left: 20px;">
+                    <li> Gerenciar Requisito</li>
+                    <li> Planejar Projeto</li>
+                    <li> Desenvolvimento do produto</li>
+                    <li> Entrega do Produto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //testimonials -->
+<!-- gallery -->
+<div id="fase-2" class="gallery">
+    <!-- container -->
+    <div class="container">
+        <div class="gallery-info">
+            <h3>Fase 2</h3>
+        </div>
+        <div class="col-sm-12 gallery-text">
+
+
+            <div class="entrega">
+                <h2>A Definição da Configuração da Descoberta</h2>
+                <p>
+                    Devido o grupo possuir poucos integrantes ela ficou dividida da seguinte forma, como o membro da
+                    equipe
+                    Jeferson faz estagio na organização analizada ele ficou responsável pela descoberta de processos e
+                    coleta de Informações na empresa, para que possa ser modelada em conjunto com todos os membros da
+                    equipe.
+                </p>
+            </div>
+
+            <div class="entrega">
+                <h2>As evidências de Coletas de Informações</h2>
+            </div>
+            <div class="entrega" style="margin-bottom: 60px">
+                <h2>AS-IS</h2>
+                <p class="center-block">
+                    Esta é a modelagem dos processo da empresa que estão em nosso escopo, como ele são hoje.
+                </p>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/as-is/ProcessoDeGerenciarRequisito/index.html" target="_blank"
+                       class="btn btn-default">Gerenciar Requisito</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/as-is/ProcessoDeGerenciarProjeto/index.html" target="_blank"
+                       class="btn btn-default">Planejar
+                        Projeto</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/as-is/ProcessoDeDesenvolvimento/index.html" target="_blank"
+                       class="btn btn-default">Desenvolvimento
+                        do produto</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="" target="_blank" class="btn btn-default">Entrega do Produto</a>
+                </div>
+            </div>
+            <div class="entrega">
+                <h2>As evidências de Garantia da Qualidade dos Modelos</h2>
+                <p>
+                    Devido o grupo possuir poucos integrantes (um total de três), todos os artefatos produzidos durante
+                    o
+                    trabalho são elaborados e revisados por todos do grupo, garantindo a qualidade.
+                </p>
+                <p>
+                    Assim que os artefatos são concluídos, tão quanto durante os seus desenvolvimentos, são expostos aos
+                    representantes e
+                    envolvidos da organização, os quais realizam a validação e/ou sugestões de alteração. É realizada
+                    uma
+                    constante verificação do repositório pelos integrantes, dos quais buscam a sua organização e
+                    conformidade dos artefatos lá expostos.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- //container -->
+</div>
+<!-- //gallery -->
+<!-- testimonials -->
+<div id="fase-3" class="testimonials">
+    <!-- container -->
+    <div class="container">
+        <div class="testimonials-info">
+            <h3>Fase 3</h3>
+        </div>
+        <div class="col-sm-12">
+            <div class="entrega">
+                <h2>Análise Qualitativa de Processos</h2>
+                <table class="table-analise-qualitativa">
+                    <tr>
+                        <th>Processo de Elicitação</th>
+                        <th width="40%">Ator(es)</th>
+                        <th width="10%">Classificação</th>
+                    </tr>
+                    <tr>
+                        <td>Registrar Necessidade</td>
+                        <td>Stakeholders</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Priorizar Necessidade</td>
+                        <td>Stakeholders; Analista de Negócios/PO.</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Criar Projeto</td>
+                        <td>Líder de Analise de Negócio</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Analisar Requisito</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elicitar Requisito</td>
+                        <td>Analista de Negócios/PO.</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Descrever Requisitos</td>
+                        <td>Analista de Negócios/PO.</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Refinar Épicos</td>
+                        <td>Analista de Negócios/PO.</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Definir Critérios de Aceitação</td>
+                        <td>Analista de Negócios/PO;Stakeholder(s).</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar rastreabilidade horizontal</td>
+                        <td>Analista de Negócios/PO.</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Analisar Impactos e Viabilidade Técnica</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Efetuar contagem PF</td>
+                        <td>Analista de Negócio/PO</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Revisar Requisito</td>
+                        <td>Scrum Team</td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Apresentar Requisito</td>
+                        <td>Analista de Negócio/PO;Stakeholders.</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar / GerenciarProduct Backlog</td>
+                        <td></td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Priorizar backlog do produto</td>
+                        <td>Analista de Negócio/PO</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Manter oProduct Backlog</td>
+                        <td>Analista de Negócio/PO</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Planejar Portfólio de Projetos</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Planejar Projeto</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Criar subprojeto de desenvolvimento</td>
+                        <td>Gerente de Projetos</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Estimar Projeto</td>
+                        <td>Gerente de Projetos, Time Scrum</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar cronograma</td>
+                        <td>Gerente de Projeto</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Planejar Riscos</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar Plano de projeto</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Reunião dekick off</td>
+                        <td></td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Preparação do ambiente de desenvolvimento</td>
+                        <td>Time de DesevolvimentoScrum Master</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Criar subprojeto de transição</td>
+                        <td>Gerente de Projetos</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Auditoria de pré game</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                </table>
+
+
+                <table class="table-analise-qualitativa">
+                    <tr>
+                        <th>Processo de Desenvolvimento</th>
+                        <th width="40%">Ator(es)</th>
+                        <th width="10%">Classificação</th>
+                    </tr>
+                    <tr>
+                        <td>Planejar Sprint</td>
+                        <td></td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar rastreabilidade vertical</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar modelos</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Definir e evoluir arquitetura</td>
+                        <td>Arquiteto</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar reunião diária</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Implementar incremento de software</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Revisar incremento de software</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Implementar automatização de teste de unidade</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Executar suite de teste</td>
+                        <td>Time de desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Produzir documentação usuário final</td>
+                        <td></td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Avaliarsprint</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar auditoria desprint</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar retrospectiva da sprint</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Gerar baseline da release</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Enviar merge request</td>
+                        <td>Time de Desenvolvimento</td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Aceitar merge request</td>
+                        <td>Analista de Configuração</td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Gerar baseline</td>
+                        <td>Analista de Configuração</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Criar tarefas de build no servidor de integração</td>
+                        <td>Time de Desenvolvimento</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Elaborar nota de release</td>
+                        <td>Analista de Negócio</td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Atualizar base de release</td>
+                        <td></td>
+                        <td>NVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar Contagem de Ponto de Função</td>
+                        <td></td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar liberação do projeto</td>
+                        <td>Analista de Implantação</td>
+                        <td>VA</td>
+                    </tr>
+                </table>
+
+                <table class="table-analise-qualitativa">
+                    <tr>
+                        <th>Processo de Transição</th>
+                        <th width="40%">Ator(es)</th>
+                        <th width="10%">Classificação</th>
+                    </tr>
+                    <tr>
+                        <td>Atualizar release no ambiente de homologação</td>
+                        <td>Analista de Infraestrutura</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar testes exploratórios da no ambiente de homologação</td>
+                        <td>Analista de Implantação</td>
+                        <td>BVA</td>
+                    </tr>
+                    <tr>
+                        <td>Aceite do cliente</td>
+                        <td>Analista de Negócios</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Treinar cliente</td>
+                        <td>Analista de Implantação</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Atualizar release no ambiente de produção</td>
+                        <td>Analista de Infraestrutura</td>
+                        <td>VA</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar auditoria pós game</td>
+                        <td></td>
+                        <td>VA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //testimonials -->
+<!-- gallery -->
+<div id="fase-4" class="gallery">
+    <!-- container -->
+    <div class="container">
+        <div class="gallery-info">
+            <h3>Fase 4</h3>
+        </div>
+        <div class="col-sm-12 gallery-text">
+
+            <div class="entrega">
+                <h2>TO-BE</h2>
+
+                <p class="center-block">
+                    Esta é a modelagem dos processo da empresa apos nossas sugestoes de melhoria.
+                </p>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/to-be/ProcessoDeGerenciarRequisito/index.html" target="_blank"
+                       class="btn btn-default">Gerenciar Requisito</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/to-be/ProcessoDeGerenciarProjeto/index.html" target="_blank"
+                       class="btn btn-default">Planejar
+                        Projeto</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/to-be/ProcessoDeDesenvolvimento/index.html" target="_blank"
+                       class="btn btn-default">Desenvolvimento
+                        do produto</a>
+                </div>
+                <div class="btn-processo col-sm-3">
+                    <a href="processos/to-be/ProcessoDeDesenvolvimento/index.html" target="_blank"
+                       class="btn btn-default">Entrega
+                        do Produto</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- //container -->
+</div>
+<!-- //gallery -->
+<!-- news -->
+<div id="equipe" class="news">
+    <!-- container -->
+    <div class="container">
+        <div class="news-info">
+            <h3>Equipe</h3>
+        </div>
+        <div class="col-sm-3">
+            <h2>Geraldo Landre</h2>
+        </div>
+        <div class="col-sm-3">
+            <h2>Ingrid Bressan</h2>
+        </div>
+        <div class="col-sm-3">
+            <h2>Jeferson Urbieta</h2>
+        </div>
+        <div class="col-sm-3">
+            <h2>João Pedro</h2>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //news -->
+<!-- footer -->
+<div class="footer">
+    <!-- container -->
+    <div class="container">
+        <p>Copyrights © 2015 Auberge . All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //footer -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- content-Get-in-touch -->
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+</body>
+</html>
